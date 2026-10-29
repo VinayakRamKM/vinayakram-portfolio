@@ -1,8 +1,8 @@
 :root {
-  --bg: #10182b;
-  --bg-2: #172541;
-  --panel: rgba(24, 39, 68, 0.72);
-  --line: rgba(166, 198, 255, 0.2);
+  --bg: #253b63;
+  --bg-2: #304d7d;
+  --panel: rgba(45, 70, 111, 0.72);
+  --line: rgba(198, 221, 255, 0.28);
   --text: #eef4ff;
   --muted: #a7b6d0;
   --blue: #4ea2ff;
@@ -63,18 +63,18 @@ img {
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(900px 500px at var(--mx, 70%) var(--my, 20%), rgba(56, 125, 255, 0.28), transparent 55%),
-    radial-gradient(700px 400px at 10% 80%, rgba(94, 234, 212, 0.14), transparent 50%),
-    radial-gradient(900px 700px at 100% 100%, rgba(115, 77, 255, 0.12), transparent 60%),
-    linear-gradient(180deg, #152442, #101b32 48%, #0d172b);
+    radial-gradient(900px 500px at var(--mx, 70%) var(--my, 20%), rgba(92, 161, 255, 0.36), transparent 55%),
+    radial-gradient(700px 400px at 10% 80%, rgba(94, 234, 212, 0.2), transparent 50%),
+    radial-gradient(900px 700px at 100% 100%, rgba(151, 126, 255, 0.2), transparent 60%),
+    linear-gradient(180deg, #3c5f96, #2c4774 48%, #22385e);
 }
 
 .bg-grid {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(190, 215, 255, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(190, 215, 255, 0.055) 1px, transparent 1px);
+    linear-gradient(rgba(220, 235, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(220, 235, 255, 0.08) 1px, transparent 1px);
   background-size: 48px 48px;
   mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
 }
@@ -148,7 +148,7 @@ img {
   padding: 10px 14px 10px 18px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(12, 24, 46, 0.72);
+  background: rgba(31, 54, 91, 0.78);
   backdrop-filter: blur(18px);
 }
 
