@@ -17,10 +17,10 @@ export const site = {
   university: 'MS Ramaiah University of Applied Sciences',
   degree: 'B.Tech in Computer Science',
   graduation: '2023–2027',
-  phone: '+91 89518 70949',
   email: 'vinayakram2894@gmail.com',
   github: 'https://github.com/VinayakRamKM',
   githubLabel: 'VinayakRamKM',
+  linkedin: 'https://www.linkedin.com/in/vinayakramkm',
   summary:
     'Computer Science student and software engineering intern building thoughtful web products, data tools, and practical computer-vision systems.',
   availability: 'Open to meaningful software opportunities',
@@ -306,5 +306,5 @@ export const terminalReplies: Record<string, string> = {
   experience: experience.map((item) => `${item.role} @ ${item.company}`).join(' · '),
   education: `${site.degree} at ${site.university} (${site.graduation})`,
   projects: projects.map((p) => p.title).join(', '),
-  contact: `${site.email} · ${site.phone}`,
+  contact: `${site.email} `,
 }
